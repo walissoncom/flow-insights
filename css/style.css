@@ -126,6 +126,8 @@ small {
     letter-spacing: 3px;
 }
 
+
+/* ===== Quick Links ===== */
 .quick-links {
     left: 0;
     bottom: 0;
@@ -154,4 +156,26 @@ small {
     margin-top: 15px;
     font-size: 10px;
     color: #FFF;
+}
+
+
+/* ===== Social ===== */
+.social-icons {
+    right: 72px;
+    bottom: 35px;
+    position: absolute;
+}
+
+.social-icons ul li {
+    list-style: none;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.social-icons ul li a {
+    color:#999;
+    border-radius: 50%;
+    border: 1px solid #999;
+    padding: 5px;
+    display: block;
 }
